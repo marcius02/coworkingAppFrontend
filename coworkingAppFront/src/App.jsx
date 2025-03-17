@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import sos1 from './Assets/Images/sos1.jpg'
 import sos2 from './Assets/Images/sos2.jpg'
-import './App.css'
+import './Assets/Styles/App.css'
 
 function App() {
   const [count, setCount] = useState(0)
