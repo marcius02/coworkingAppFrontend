@@ -2,6 +2,7 @@ import { useState } from 'react'
 import sos1 from './Assets/Images/sos1.jpg'
 import sos2 from './Assets/Images/sos2.jpg'
 import './Assets/Styles/App.css'
+import { Button } from './componentsShadcn/ui/button'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,10 +25,9 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
+          <Button type="button" variant="destructive" >Hola gente</Button>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+   
     </>
   )
 }
